@@ -1,5 +1,6 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.5)
 set(PROJECT_NAME "pdfx")
+set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
 project(${PROJECT_NAME} LANGUAGES CXX)
 
 set(ARCH "x64")
